@@ -53,16 +53,6 @@ transport.send_line("getmodulelist")
 transport.stop()
 ```
 
-
-### Connection test script
-A quick smoke-test script is available:
-
-```bash
-python scripts/controlart_connection_test.py --host <XPORT_IP> --port <XPORT_PORT>
-```
-
-You can send custom commands by repeating `--command` and control runtime with `--duration`.
-
 ### Status
 `controlart` is under active development; higher-level codec/router/entity APIs are planned next.
 
